@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestFramework>
+  <Settings>
+    <MainURL>http://trainingrite.net/</MainURL>
+  </Settings>
+  <BrowserSettings>
+    <Type>IE</Type>
+    <Cache>Yes</Cache>
+    <Cookies>Yes</Cookies>
+  </BrowserSettings>
+  <DataSettings>
+    <Type>Excel</Type>
+    <Source>C:\Users\owner\Documents\Visual Studio 2015\Projects\TestingProject01\TestingProject01\DataSources\MasterTestCases.xlsx</Source>
+    <Table>NewUsers</Table>
+    <Field1>firstname</Field1>
+    <Field2>lastname</Field2>
+    <Field3>email</Field3>
+    <Field4>homephone</Field4>
+  </DataSettings>
+</TestFramework>
