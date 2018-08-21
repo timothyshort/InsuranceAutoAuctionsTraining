@@ -22,7 +22,6 @@ namespace TestingProject01.DataReaders
              */
 
             // Connection String: server, user, password, database
-            // string connectionString = "server=sql2k801.discountasp.net;User=SQL2008_841902_tr_user;Password=52645264hrm;database=SQL2008_841902_tr;";
             string serverName = ConfigurationSettings.AppSettings["server"].ToString();
             string username = ConfigurationSettings.AppSettings["login"].ToString();
             string password = ConfigurationSettings.AppSettings["password"].ToString();
